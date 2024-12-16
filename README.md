@@ -1,24 +1,24 @@
-# Belarc-Compliance-Checker-failed-ip-filtered-in-PYTHON
 # Belarc Compliance Checker
 
 ✨ **Made with ❤️ by Vaibhav Mishra** ✨  
 
-## Overview
-Belarc Compliance Checker is a Python-based tool that automates the process of analyzing Belarc Advisor HTML reports for compliance. It searches for specific sentences in the HTML files and identifies whether they pass or fail compliance checks based on accompanying images (`yes.gif` or `no.gif`). The tool is designed with a simple graphical user interface (GUI) using `Tkinter`.
+## Overview  
+Belarc Compliance Checker ek Python-based tool hai jo automate karta hai Belarc Advisor ke HTML reports ka compliance analysis. Aap ek specific sentence search kar sakte ho, aur tool compliance images (`yes.gif` ya `no.gif`) ke basis par pass/fail compliance status detect karta hai. Yeh GUI `Tkinter` ke saath banaya gaya hai jo ise use karne mein super simple banata hai.
 
 ---
 
-## Features
-- **Directory Selection:** Easily browse and select a root directory containing Belarc HTML reports.
-- **Search Sentence:** Input the text to search for in the reports.
-- **Compliance Check:** Detect and classify compliance status based on images (`yes.gif` or `no.gif`).
-- **IPv4 Address Filter:** Outputs only the failing files with associated IPv4 addresses.
-- **Creative Output:** Displays results with a personalized touch. ✨
+## Features  
+- **Directory Selection:** Kisi bhi root directory ko browse aur select karo jisme Belarc HTML reports ho.  
+- **Search Sentence:** Apna desired text input karo jo aapko search karna hai.  
+- **Compliance Check:** Compliance status images ke basis par detect karo (`yes.gif` ya `no.gif`).  
+- **IPv4 Address Filter:** Sirf fail hone wale files ke results ko IPv4 address ke sath display karta hai.  
+- **Creative Output:** Results ko ek personal touch ke sath dikhata hai. ✨  
 
 ---
 
-## How to Use
-1. **Clone the Repository**:
+## How to Use  
+
+1. **Clone Repository karo:**  
    ```bash
    git clone https://github.com/sagevaibhav/belarc-compliance-checker.git
    cd belarc-compliance-checker
